@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do App</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>To-do App</h1>
+        <form id="task-form-NEW">
+            <input type="text" id="input-NEW-task" placeholder="What is your plan?" />
+            <div id="addDiv"><input type="submit" value="Add Task" id="NEW-task-submit-btn" /></div>
+        </form>
+    </header>
+    <main>
+        <section class="task-list">
+            <h2>Tasks</h2>
+
+            <div id="tasks">
+                <div class="task">
+                    <div class="content">
+                        <input type="text" class="text" value="Example Task" readonly/>
+                    </div>
+                    <div class="actions">
+                        <button class="edit" style="opacity:0.3 ;">Edit</button>
+                        <button class="delete" style="opacity:0.3;">Delete</button>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </section>
+    </main>
+
+</body>
+
+</html>
